@@ -22,7 +22,8 @@ Some important git comands:
     git push origin master (upload commits to your central github repository)
 
 **start:** To start the application, open the index.html in a browser (Firefox). To open it in Chrome you have to open the files with a local webserver e.g. Apache.
-sass: If you don’t use sass, you can add your styles directly to `styles/amazine.css`. Otherwise use it to compile the sass files to replace the styles/amazine.css file. [http://sass-lang.com/install](http://sass-lang.com/install)
+sass: If you don’t use sass, you can add your styles directly to `styles/amazine.css`. Otherwise use it to compile the sass files to replace the `styles/amazine.css` file. 
+Find more about sass on [http://sass-lang.com/install](http://sass-lang.com/install)
 We prepared some variables and mixins that are explained in detail in the code files. You could add some more variables or mixins just as you like.
 
 
