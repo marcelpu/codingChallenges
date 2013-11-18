@@ -24,6 +24,7 @@ Some important git comands:
 **start:** To start the application, open the index.html in a browser (Firefox). To open it in Chrome you have to open the files with a local webserver e.g. Apache.
 sass: If you don’t use sass, you can add your styles directly to `styles/amazine.css`. Otherwise use it to compile the sass files to replace the `styles/amazine.css` file. 
 Find more about sass on [http://sass-lang.com/install](http://sass-lang.com/install)
+
 We prepared some variables and mixins that are explained in detail in the code files. You could add some more variables or mixins just as you like.
 
 
@@ -31,6 +32,7 @@ We prepared some variables and mixins that are explained in detail in the code f
 ## the task
 When you open the website for the first time you will see two stories without any styling. We want you to style these two stories in the given layout. The included photoshop files provide detailed information about the layout and the grid system we use at Amazine.com. The width and the height of the grid are provided as sass-variables in the `sass/_variables.scss`.
 Consider, that story texts could be longer or shorter. Images should have the given ratio’s that you can find in the _variables.scss.
+
 If you like, you can create you own layout, as long as you have the same width and height as the layouts in the photoshop files.
 
 
