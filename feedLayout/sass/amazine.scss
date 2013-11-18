@@ -1,0 +1,65 @@
+// ***************************************************
+//  AMAZINE Code Competition
+//  
+//  This file is the main sass file that should be
+//  rendered into static/main.css
+//
+//
+//
+//  PLEASE NOTICE
+//
+//  1. class/id naming
+//     - use camelCase class and id names
+//     - parent View Elements start with a capital letter
+//     - use readable class and id names
+//  2. format
+//     - use classes instead of ids
+//     - set line indent to 4 spaces instead of one tab
+//     - use wrapped classes and class chaines
+//     - 
+//
+//
+//
+//  USE SASS: -------------------------
+//  If SASS is installed on your system, you 
+//  could use the following call to start watching SASS
+//  type: sass --watch styles/amazine.scss:static/amazine.css --style compressed
+//  ( make clear that you are at the base directory
+//   of this project )
+//
+//
+//
+//  learn the basics about SASS: ------
+//  http://sass-lang.com/guide
+//
+//
+//
+//  INFORMATION about SASS: -----------
+//
+//  If you don't know anything about SASS you will 
+//  find some help at http://sass-lang.com
+//
+//  to install SASS on your local maschine
+//  read the instructions on 
+//  http://sass-lang.com/install
+//
+// ***************************************************
+
+// ---------------------------------------------------
+//  Import basics for the sass compile process:
+@import "variables";    // styles/_variables.scss
+@import "mixins";       // styles/_mixins.scss
+@import "base";         // styles/_base.scss
+
+// ---------------------------------------------------
+//  Add your styles below
+
+.Story {
+    // styles for the story as for instance:
+    .description {
+        font:$storyFont;
+    }
+    .account {
+        font:$storyFont;
+    }
+}

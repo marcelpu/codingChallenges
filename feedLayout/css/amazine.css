@@ -1,0 +1,44 @@
+/* line 9, ../sass/_base.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../sass/_base.scss */
+body {
+  font: normal 200 16px/18px "Helvetica Neue", "Helvetica", sans-serif;
+  line-height: 18px;
+}
+
+/* line 19, ../sass/_base.scss */
+#App {
+  width: 750px;
+  margin: auto;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+/* line 25, ../sass/_base.scss */
+h1, h2, h3 {
+  font: normal normal 42px/36px didot, "Times New Roman", serif;
+  margin-bottom: 18px;
+}
+
+/* line 30, ../sass/_base.scss */
+article + article {
+  margin-top: 54px;
+}
+
+/* line 34, ../sass/_base.scss */
+p {
+  font: normal 200 16px/18px "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 59, ../sass/amazine.scss */
+.Story .description {
+  font: normal 200 16px/18px "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 62, ../sass/amazine.scss */
+.Story .account {
+  font: normal 200 16px/18px "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,35 @@
+// ***************************************************
+//  AMAZINE Code Competition
+//  
+//  This file contains all SASS variables that we will
+//  use in this test environment
+//
+// ***************************************************
+
+
+// ---------------------------------------------------
+//  AMAZINE grid system:
+//
+//  HELP:
+//  use the mixins rows() or cols() to set values
+//  for the elements
+$columnWidth        : 48px;
+$columnMargin       : 30px;
+$lineHeight         : 18px;
+
+// ---------------------------------------------------
+//  IMAGES in Stories
+//  
+//  to make it easier to style the stories 
+//  we use fixed image ratios as follows.
+//  If the image is wider or heigher than the
+//  explicit value the image should be cropped
+$imgRatio_15        : 1.4142; // din A ratio for portrait
+$imgRatio_05        : 0.71;   // din A ratio for landscape
+$imgRatio_10        : 1;      // ratio for square
+
+// ---------------------------------------------------
+//  AMAZINE fonts:
+$mainFont       : normal 200 16px/#{$lineHeight} "Helvetica Neue", "Helvetica", sans-serif;
+$headlineFont   : normal normal 42px/#{2 * $lineHeight} didot, "Times New Roman", serif;
+$storyFont      : normal 200 16px/#{$lineHeight} "Gill Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

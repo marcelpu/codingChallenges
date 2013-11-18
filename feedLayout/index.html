@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AMAZINE - Coding Competition</title>
+        <meta name="description" content="recruitment test for employees.">
+        <meta name="keywords" content="recruitment test, employee, frontend, community, backbone, javascript, html, css, sass">
+        <link rel="stylesheet" type="text/css" href="css/amazine.css">
+    </head>
+    <body>
+        <section id="App"></section>
+        <script id="storyTemplate" type="text/x-handlebars-template">
+            
+            {{! add classes or HTML structure to this handlebars template as you need to style the story }}
+
+            <h3>{{title}}</h3>
+            <p class="description">{{description}}</p>
+            <div class="account"><img src="{{account.imgSrc}}" alt="{{account.username}}"> <a href="{{account.url}}" class="profileLink">{{account.username}}</a></div>
+            {{#each images}}
+                <img class="image" src="{{src}}" alt="{{caption}}" width="{{width}}" height="{{height}}" />
+            {{/each}}
+        </script>
+        <script src="scripts/libs.js"></script>
+        <script src="scripts/amazine.js"></script>
+    </body>
+</html>

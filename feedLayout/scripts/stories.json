@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Natalie Off Duty: A Pink Birthday Cake", 
+        "description": "A vintage coat in the perfect bold pink, warm on both the body and the eyes. Particularly love how Natalie has this look with a velvet jacket, rock n' roll button-down, a colourful houndstooth clutch, jeans, and a cute hat and sunglasses to finish it off.",
+        "account": {
+            "username": "Eleanor Lauesco",
+            "url": "http://www.amazine.com/user/Lauesco",
+            "imgSrc": "http://img.amazine.com/resizer/sfc_36x36_amazine_1349098111896_0045621638_0.jpg"
+        },
+        "images": [
+            {
+                "src": "http://img.amazine.com/resizer/sfh_550x0_amazine_1384166207339_7685641265.jpg",
+                "caption": "Gypsy Junkies velvet jacket, Vintage coat, Joes Jeans pleated blouse, HUDSON JEANS patchwork jeans, Isly Handbags CLUTCH, Ax + Apple necklaces, Wildfox sunglasses, Sam Edelman boots, Worth & Worth hat",
+                "ratio": 1.5009380863039399,
+                "width": 550,
+                "height": 366
+            },
+            {
+                "src": "http://img.amazine.com/resizer/sfh_550x0_amazine_1384166207522_4637741712.jpg",
+                "caption": "",
+                "ratio": 0.6666666666666666,
+                "width": 550,
+                "height": 825
+            },
+            {
+                "src": "http://img.amazine.com/resizer/sfh_550x0_amazine_1384166207733_8053852302.jpg",
+                "caption": "",
+                "ratio": 1.5009380863039399,
+                "width": 550,
+                "height": 366
+            }
+        ]
+    },
+    { 
+        "id": 2,
+        "title": "Street Style Inspiration", 
+        "description": "For me it's not magazine editorials, fashion shows or advertising that inspire me, it's street style. Seeing what people wear out and about, how they style an outfit, how clothing changes for seasons and occasions and how a photographer captures ...",
+        "account": {
+            "username": "Amina Adams",
+            "url": "http://www.amazine.com/user/Amina",
+            "imgSrc": "http://img.amazine.com/resizer/sfc_36x36_amazine_1348847299210_0207020715_0.jpg"
+        },
+        "images": [
+            {
+                "src": "http://img.amazine.com/resizer/sfh_550x0_amazine_1383648937515_4374388748.jpg",
+                "caption": "",
+                "ratio": 0.6644518272425249,
+                "width": 550,
+                "height": 828
+            },
+            {
+                "src": "http://img.amazine.com/resizer/sfh_500x0_amazine_1383648938154_0458627652.jpg",
+                "caption": "",
+                "ratio": 1.4577259475218658,
+                "width": 500,
+                "height": 343
+            },
+            {
+                "src": "http://img.amazine.com/resizer/sfh_550x0_amazine_1383648938557_7574220725.jpg",
+                "caption": "",
+                "ratio": 0.70996640537514,
+                "width": 550,
+                "height": 775
+            }
+        ]
+    }
+]

@@ -1,0 +1,68 @@
+// ---------------------------------------------------
+// mixins for columns and heights:
+// 
+//      .element {
+//          @include cols(10, "max-width");  // without additional margin
+//          @include cols(10, "left", true); // true will add a columnMargin to the value
+//      }
+// will generate the following css:
+//      .element { max-width: 750px; left: 780px }
+//
+@mixin cols($columns, $property: "width", $addMargin:false) {
+    $val:$columns * $columnWidth + ($columns - 1) * $columnMargin;
+    @if $addMargin == true {
+        $val: $columns * $columnWidth + $columns * $columnMargin;
+    }
+    #{$property}: round($val);
+}
+
+// ---------------------------------------------------
+// using the rows mixin:
+// 
+//      .element {
+//          @include rows(4, "max-height");
+//      }
+// will generate the following css:
+//      .element { max-height: 72px }
+
+@mixin rows($rows, $property: "height") {
+    @if $rows == "a" {
+        $rows: 22;
+    }
+    @if $rows == "b" {
+        $rows: 34;
+    }
+    @if $rows == "c" {
+        $rows: 7
+    }
+    $val: $rows * $lineHeight;
+    #{$property}: round($rows * $lineHeight);
+}
+// ---------------------------------------------------
+// how image dimension mixin works:
+// when you know the width of the image, you could
+//
+// use the mixin like this:
+//      .imagePortrait {
+//          @include imageDimension( 100px, 15);
+//      }
+//      .imageLandscape {
+//          @include imageDimension( 100px, 05);
+//      }
+// sass will render:
+//      .imagePortrait  { width:100px; height:141px }
+//      .imageLandscape { width:100px; height:71px  }
+//
+@mixin imageDimension($w, $ratio, $addHeight:0) {
+    $imgWidth:round( $w );
+    width:$imgWidth;
+    @if $ratio == 15 {
+        height:round( $imgWidth * $imgRatio_15 + $addHeight );
+    }
+    @if $ratio == 10 {
+        height:round( $imgWidth * $imgRatio_10 + $addHeight );
+    }
+    @if $ratio == 05 {
+        height:round( $imgWidth * $imgRatio_05 + $addHeight );
+    }
+}
