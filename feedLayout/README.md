@@ -1,6 +1,8 @@
 AMAZINE Coding challenge
 ========================
 
+This is a layout coding challenge to give us an impression about your skills and how your work. It should take you around 4 to 6 hours (just a rough estimation). If you have any questions, don't hestitate to write us a mail.
+
 ## the setup
 **file structure:** The challenge contains the following files:
 
@@ -16,24 +18,34 @@ If you are not familiar with git, you can download the project as a ZIP file and
 Clone the forked repository, it should have an url like `http://github.com/YOURUSERNAME/codingChallenges`
 Some important git comands:
 
-    git clone https://github.com/webstrap/codingChallenges
+    git clone https://github.com/YOURUSERNAME/codingChallenges
     git add -A (add all new files, rename files, delete files)
     git commit -am “some commit message” (create a commit with the latest changes)
     git push origin master (upload commits to your central github repository)
 
-**start:** To start the application, open the index.html in a browser (Firefox). To open it in Chrome you have to open the files with a local webserver e.g. Apache.
-sass: If you don’t use sass, you can add your styles directly to `styles/amazine.css`. Otherwise use it to compile the sass files to replace the `styles/amazine.css` file. 
+**sass:** If you don’t use sass, you can add your styles directly to `styles/amazine.css`. Otherwise use it to compile the sass files to replace the `styles/amazine.css` file. 
 Find more about sass on [http://sass-lang.com/install](http://sass-lang.com/install)
-
 We prepared some variables and mixins that are explained in detail in the code files. You could add some more variables or mixins just as you like.
 
-
+**start:** To start the application, open the index.html in a browser (Firefox). To open it in Chrome you have to open the files with a local webserver e.g. Apache.
 
 ## the task
-When you open the website for the first time you will see two stories without any styling. We want you to style these two stories in the given layout. The included photoshop files provide detailed information about the layout and the grid system we use at Amazine.com. The width and the height of the grid are provided as sass-variables in the `sass/_variables.scss`.
-Consider, that story texts could be longer or shorter. Images should have the given ratio’s that you can find in the _variables.scss.
+When you open the website for the first time you will see two stories without any styling. 
+We want you to style these two stories in the given layout in a 750x612 px container. 
+In layouts/photoshop or JPG you can find the files with detailed information about the layout and the grid system we use at Amazine.com. 
 
-If you like, you can create you own layout, as long as you have the same width and height as the layouts in the photoshop files.
+If you like, you can create your own layout, as long as you have the same width and height as the layouts in the photoshop files (750x612 px).
+
+
+Some variables for the width/height of the grid and the image ratios are in the `sass/_variables.scss`.
+We use DIN A ratio's: landscape(0.71), portrait(1.4142) and square(1) to display all images. 
+Each image get's a class with the ratio that's the closest to the actual image ratio, that means it will be cropped.
+
+Optional for the images, you can use other or more fine grained ratio classes. 
+
+Please consider, that story texts can be between 0 and something around 300 characters.
+(Normally it will be truncated somewhere between 200-300 characters depending on the template).
+
 
 
 ## some notes
