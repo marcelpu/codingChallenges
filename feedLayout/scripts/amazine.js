@@ -79,7 +79,9 @@
                 var template;
                 // template contains the rendered html templated
                 // already with the data inside
-                template = this.template( this.model.toJSON() );
+                var json = this.model.toJSON();
+		json.description = new Handlebars.SafeString(json.description);
+                template = this.template( json );
                 this.beforeAppend( $(template) );
                 this.$el.html(template);
                 return this;

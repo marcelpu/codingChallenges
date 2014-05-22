@@ -52,7 +52,7 @@ Please consider, that story texts can be between 0 and something around 300 char
 
 ### 2: Task: Text manipulation
 
-The text may contain URLs that are already wrapped in an 'a' tag and URLs that are just plain text. Wrap all plain text links in an 'a' tag as well and shorten them appropriately.
+The text may contain URLs that are already wrapped in an 'a' tag and URLs that are just plain text. Wrap all plain text links in an 'a' tag as well and shorten them appropriately. The second story's description contains some links for that.
 
 ### 3: Task: Single story popup
 
