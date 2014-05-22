@@ -29,7 +29,7 @@ We prepared some variables and mixins that are explained in detail in the code f
 
 **start:** To start the application, open the index.html in a browser (Firefox). To open it in Chrome you have to open the files with a local webserver e.g. Apache. (just to check it out you can use as well this link: http://webstrap.github.io/codingChallenges/feedLayout/index.html )
 
-When you open the website for the first time you will see two stories without any styling. There are different tasks possible:
+When you open the website for the first time you will see two stories without any styling. There are already events bound on each story and each image to get an alert if you click on it.
 
 ## Tasks
 
