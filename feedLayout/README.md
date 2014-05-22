@@ -59,7 +59,7 @@ The text may contain URLs that are already wrapped in an 'a' tag and URLs that a
 Create some kind of popup mechanism yourself, with which you can open and close the story.
 
 ### 4: Task: Freestyle
-Do whatever you like, what you think our plattform would benefit from, or what's just cool in itself. Display more stories feed like, focus on one story or add nice effect on some interactions like open story.
+Do whatever you like, what you think our plattform would benefit from, or what's just cool in itself. Display more stories feed like, focus on one story, add nice effects on some interaction like open story, reorganize the application and so on.
 
 
 ## some notes
